@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "backend/server.js"
+    }
+  ]
+}
+```
+
+Save karo.
+
+## Step 2 — Vercel Settings Me Ye Karo
+
+Vercel dashboard → Project Settings → General:
+```
+Root Directory:   (khali chhod do — blank)
+Build Command:    (khali chhod do — blank)
+Output Directory: (khali chhod do — blank)
+Install Command:  (khali chhod do — blank)
