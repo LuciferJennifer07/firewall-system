@@ -1,0 +1,15 @@
+{
+  "name": "ai-firewall-system",
+  "version": "1.0.0",
+  "description": "Centralized AI-Powered Application Firewall System",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "seed": "cd backend && node ../scripts/seed.js",
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "simulate": "node scripts/simulate-attack.js",
+    "simulate:burst": "node scripts/simulate-attack.js burst",
+    "simulate:ddos": "node scripts/simulate-attack.js ddos",
+    "simulate:all": "node scripts/simulate-attack.js all"
+  }
+}

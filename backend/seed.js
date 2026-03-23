@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
-const MONGO_URI = 'mongodb://localhost:27017/firewall_db';
+const MONGO_URI = 'mongodb+srv://admin:Firewall123@cluster0.sqyeaqj.mongodb.net/firewall_db?retryWrites=true&w=majority';
 
 mongoose.connect(MONGO_URI).then(async () => {
   console.log('Connected to MongoDB!');
